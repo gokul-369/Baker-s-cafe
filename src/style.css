@@ -1,5 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy);
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Itim&display=swap");
 
 * {
   padding: 0px;
@@ -133,7 +132,7 @@ button {
 }
 .homecontents h1 {
   letter-spacing: 3px;
-  font: bold 40px "Noteworthy", sans-serif;
+  font: bold 40px "Handlee", sans-serif;
   color: #e8b75b;
   align-self: flex-start;
   justify-self: flex-start;
@@ -186,7 +185,7 @@ button {
   color: white;
   margin: 70px 0 0 75px;
   align-self: baseline;
-  font: bold 40px "Noteworthy", sans-serif;
+  font: bold 40px "Handlee", sans-serif;
 }
 .abt-para p {
   margin: 30px 0 0 75px;
@@ -235,7 +234,7 @@ button {
 }
 .menus h1,
 .splorders h1 {
-  font: bold 30px "Noteworthy", sans-serif;
+  font: bold 30px "Handlee", sans-serif;
   margin: 50px 0 0 0;
   color: #e8b75b;
   letter-spacing: 2px;
@@ -395,8 +394,8 @@ button {
   background-color: rgb(255, 255, 255);
 }
 .Testimonial h1 {
-  margin: 50px 0 0 0;
-  font: bold 30px "Noteworthy";
+  margin: 80px 0 0 0;
+  font: bold 30px "Handlee";
   color: #e8b75b;
 }
 .Testimonial h2 {
@@ -480,7 +479,7 @@ button {
   text-align: center;
 }
 .user__name {
-  font: bold 1.1rem "Noteworthy";
+  font: bold 1.1rem "Handlee";
 }
 .user__org {
   color: #e8b75b;
@@ -495,7 +494,7 @@ button {
 #readmore {
   color: #e8b75b;
   margin: 10px 0 0 27px;
-  font-family: "Noteworthy";
+  font-family: "Handlee";
   width: 110px;
 }
 #readmore:hover {
@@ -529,7 +528,7 @@ button {
   margin: 8px 0 0 8px;
   letter-spacing: 1px;
   color: #737270;
-  font-family: "Noteworthy";
+  font-family: "Handlee";
 }
 .name,
 .mail,
@@ -710,13 +709,11 @@ footer div {
     transform: translateX(400%);
     transition: all 0.5s ease;
     background-color: white;
-
   }
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
     transition: all 0.5s ease;
     background-color: white;
-
   }
   .nav-links li:nth-child(1) {
     transition: all 0.5s ease 0.2s;
@@ -767,10 +764,10 @@ footer div {
   .icons i {
     color: #e8b75b;
   }
-  .Home btton:hover{
+  .Home btton:hover {
     box-shadow: none;
   }
-  .icons:hover{
+  .icons:hover {
     background-color: rgb(255, 255, 255);
     box-shadow: none;
   }
@@ -789,7 +786,7 @@ footer div {
     margin: 20px 0 0 10px;
   }
   .Service {
-    justify-content: space-between;
+    justify-content: space-around;
     height: 200vh;
   }
   .menus {
@@ -827,7 +824,7 @@ footer div {
     text-align: center;
   }
   .Contact form {
-    justify-self:auto;
+    justify-self: auto;
     margin: 0 0 0 6px;
     width: 97vw;
   }
@@ -845,7 +842,4 @@ footer div {
     text-align: center;
     margin: 0 0 0 53px;
   }
-
- 
-
 }
