@@ -161,7 +161,7 @@ button {
       rgba(255, 255, 255, 0.774),
       rgba(255, 255, 255, 0.774)
     ),
-    url("../imgs/abt.jpg");
+    url("../imgs/abt.jpeg");
   background-size: cover;
 }
 .Aboutcontent {
@@ -738,7 +738,7 @@ footer div {
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
-    background: url("../imgs/mob.jpg");
+    background: url("../imgs/mob.jpeg");
     background-size: cover;
   }
   .homecontents {
