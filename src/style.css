@@ -859,8 +859,16 @@ width: 40vw;
     display: flex;
     align-items: center;
   }
+  .address{
+    margin: 0 auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 130, 238);
+  }
   .address p {
+    font-size: 1rem;
+    max-width: 390px;
     text-align: center;
-    margin: 0 0 0 0px;
   }
 }
