@@ -852,6 +852,8 @@ footer div {
     width: 90vw;
   }
   footer {
+    justify-content: center;
+    align-items: center;
     height: 43vh;
     flex-direction: column;
     width: 100vw;
