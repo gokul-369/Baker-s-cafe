@@ -9,9 +9,13 @@
     />
     <title>Bakers cafe</title>
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" async>
-<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Itim&display=swap" rel="stylesheet" async>
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" async />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Itim&display=swap"
+      rel="stylesheet"
+      async
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -35,26 +39,55 @@
     </header>
     <section class="Home" id="Home">
       <div class="icons-div">
-        <div class="icons"><i class="fab fa-instagram"></i></div>
-        <div class="icons"><i class="fab fa-facebook"></i></div>
-        <div class="icons"><i class="fab fa-twitter"></i></div>
-        <div class="icons"><i class="fas fa-phone-alt"></i></div>
+        <div class="icons">
+          <i data-aos="fade-down-right" class="fab fa-instagram"></i>
+        </div>
+        <div class="icons">
+          <i
+            data-aos="fade-down-right"
+            data-aos-delay="200"
+            class="fab fa-facebook"
+          ></i>
+        </div>
+        <div class="icons">
+          <i
+            data-aos="fade-down-right"
+            data-aos-delay="400"
+            class="fab fa-twitter"
+          ></i>
+        </div>
+        <div class="icons">
+          <i
+            data-aos="fade-down-right"
+            data-aos-delay="600"
+            class="fas fa-phone-alt"
+          ></i>
+        </div>
       </div>
       <div class="homecontents">
-        <h1>Delecious Delights <br />At Your Home !</h1>
-        <a href="#Service"><button id="servicesbtn">Explore</button></a>
+        <h1 data-aos="fade-down">Delecious Delights <br />At Your Home !</h1>
+        <a data-aos="fade-up" href="#Service"
+          ><button id="servicesbtn">Explore</button></a
+        >
       </div>
     </section>
     <section class="About" id="About">
       <div class="Aboutcontent">
-        <div class="abt-para">
+        <div data-aos="fade-right" data-aos-duration="500" class="abt-para">
           <h1>The Sheriff Canteen</h1>
           <p>
-          Experience the taste of classic british kitchen through our preparations and we believe that it is one of the main factors that brings customers to our place and we use natural flavours and we have our own farm from where we get high quality natural ingredients for our pastries and this brings authenticity and the rustic taste which our customers cherish, you name the occasion and we provide you the best menu we have and provide you with the taste that you won't ever forget.
+            Experience the taste of classic british kitchen through our
+            preparations and we believe that it is one of the main factors that
+            brings customers to our place and we use natural flavours and we
+            have our own farm from where we get high quality natural ingredients
+            for our pastries and this brings authenticity and the rustic taste
+            which our customers cherish, you name the occasion and we provide
+            you the best menu we have and provide you with the taste that you
+            won't ever forget.
           </p>
           <button class="abt-button">Know More</button>
         </div>
-        <div class="abt-img">
+        <div data-aos="fade-left" data-aos-duration="500" class="abt-img">
           <img src="imgs/logo.jpg" />
         </div>
       </div>
@@ -63,18 +96,48 @@
       <div class="menus">
         <h1>MENU</h1>
         <div class="menulist">
-          <img src="imgs/c1.svg" class="menulisticons" />
-          <img src="imgs/c2.svg" class="menulisticons" />
-          <img src="imgs/c3.svg" class="menulisticons" />
-          <img src="imgs/c4.svg" class="menulisticons" />
-          <img src="imgs/c5.svg" class="menulisticons" />
-          <img src="imgs/c6.svg" class="menulisticons" />
+          <img
+            data-aos="fade-right"
+            data-aos-duration="500"
+            src="imgs/c1.svg"
+            class="menulisticons"
+          />
+          <img
+            data-aos="fade-right"
+            data-aos-duration="500"
+            src="imgs/c2.svg"
+            class="menulisticons"
+          />
+          <img
+            data-aos="fade-right"
+            data-aos-duration="500"
+            src="imgs/c3.svg"
+            class="menulisticons"
+          />
+          <img
+            data-aos="fade-left"
+            data-aos-duration="500"
+            src="imgs/c4.svg"
+            class="menulisticons"
+          />
+          <img
+            data-aos="fade-left"
+            data-aos-duration="500"
+            src="imgs/c5.svg"
+            class="menulisticons"
+          />
+          <img
+            data-aos="fade-left"
+            data-aos-duration="500"
+            src="imgs/c6.svg"
+            class="menulisticons"
+          />
         </div>
       </div>
       <div class="splorders">
         <h1>OUR SPECIALITIES</h1>
         <div class="listofitems">
-          <div class="box center">
+          <div class="box center" data-aos="zoom-in-up" data-aos-delay="200">
             <img src="imgs/cake.jpeg" />
             <div>
               <p class="productname">Cake</p>
@@ -103,7 +166,7 @@
             </div>
           </div>
 
-          <div class="box center">
+          <div class="box center" data-aos="zoom-in-up" data-aos-delay="400">
             <img src="imgs/cakejar.jpeg" />
             <div>
               <p class="productname">Cake Jars</p>
@@ -131,7 +194,7 @@
             </div>
           </div>
 
-          <div class="box center">
+          <div class="box center" data-aos="zoom-in-up" data-aos-delay="600">
             <img src="imgs/muffin.jpeg" />
             <div>
               <p class="productname">Muffins</p>
@@ -165,12 +228,7 @@
     <section class="Testimonial" id="Testimonial">
       <h1>TESTIMONIALS</h1>
       <div class="testimonialcontainer">
-        <div
-          class="testimonial"
-          data-aos="flip-left"
-          data-aos-duration="1000"
-          data-aos-delay="900"
-        >
+        <div class="testimonial" data-aos="fade-right">
           <img src="imgs/user1.jpeg" class="avatar" />
           <div class="testimonialuser">
             <h3 class="user__name">Madelaine Petsch</h3>
@@ -183,12 +241,7 @@
           <a href="#"><h4 id="readmore">Read more →</h4></a>
         </div>
 
-        <div
-          class="testimonial"
-          data-aos="flip-left"
-          data-aos-duration="1000"
-          data-aos-delay="900"
-        >
+        <div class="testimonial" data-aos="zoom-out" data-aos-delay="400">
           <img src="imgs/user2.jpeg" class="avatar" />
           <div class="testimonialuser">
             <h3 class="user__name">Cole Sprouse</h3>
@@ -201,20 +254,15 @@
           <a href="#"><h4 id="readmore">Read more →</h4></a>
         </div>
 
-        <div
-          class="testimonial"
-          data-aos="flip-left"
-          data-aos-duration="1000"
-          data-aos-delay="900"
-        >
+        <div class="testimonial" data-aos="fade-left" data-aos-delay="200">
           <img src="imgs/user3.jpeg" class="avatar" />
           <div class="testimonialuser">
             <h3 class="user__name">KJ Apa</h3>
             <h4 class="user__org">Food & Wine</h4>
           </div>
           <p class="testimonial_text">
-            "I have reviewed many bakeries as a food critic but Sheriff Canteen is
-            unique and it is something that makes them different from the
+            "I have reviewed many bakeries as a food critic but Sheriff Canteen
+            is unique and it is something that makes them different from the
             others."
           </p>
           <a href="#"><h4 id="readmore">Read more →</h4></a>
@@ -226,7 +274,7 @@
       </h2>
     </section>
     <section class="Contact" id="Contact">
-      <form class="forms" action="">
+      <form data-aos="zoom-out-right" class="forms" action="">
         <h3>WRITE TO US</h3>
         <div class="contactform">
           <div class="name">
@@ -250,16 +298,21 @@
       </form>
     </section>
     <footer>
-      <div class="address">
+      <div data-aos="fade-right" class="address">
         <p>
-          The Sheriff Canteen, 221 B Baker's street, London, England, NW1 6XE,  044-2686-4896, 
-          info@sheriffcanteen.in
+          The Sheriff Canteen, 221 B Baker's street, London, England, NW1 6XE,
+          044-2686-4896, info@sheriffcanteen.in
         </p>
       </div>
-      <div class="mid">
+      <div class="mid" data-aos="zoom-out" data-aos-delay="400">
         <img src="imgs/logo.png" />
       </div>
-      <div class="last">
+      <div
+        class="last"
+        data-aos="fade-left"
+        data-aos-offset="-200"
+        data-aos-delay="200"
+      >
         <p>Follow us on</p>
         <div class="fooiconsdiv">
           <div class="fooicon"><i class="fab fa-instagram"></i></div>
@@ -270,6 +323,10 @@
       </div>
     </footer>
     <script src="src/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
   </body>
 </html>

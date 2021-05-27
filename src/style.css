@@ -20,6 +20,7 @@ body {
 }
 
 section {
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -119,6 +120,7 @@ button {
   transform: scale(1.2);
   box-shadow: 2px 2px 2px 2px #dadada;
   background-color: #e8b75bbb;
+  transition: 0.3s ease-in-out;
 }
 .homecontents {
   margin: 0 0 0 40px;
@@ -694,7 +696,7 @@ footer div {
   .nav-links.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
-    transition: 0.8s ease-out;
+    transition: 0.5s ease-out;
     pointer-events: all;
   }
   .toggle .line1 {
@@ -751,6 +753,10 @@ footer div {
     justify-self: normal;
     align-self: center;
   }
+  #servicesbtn:hover {
+    box-shadow: none;
+    color: white;
+  }
   .icons-div {
     justify-self: baseline;
     flex-direction: row;
@@ -760,9 +766,6 @@ footer div {
   }
   .icons i {
     color: #e8b75b;
-  }
-  .Home btton:hover {
-    box-shadow: none;
   }
   .icons:hover {
     background-color: rgb(255, 255, 255);
@@ -820,32 +823,31 @@ footer div {
     margin: 0 0 0 0;
     text-align: center;
   }
-  .Contact{
+  .Contact {
     height: 100vh;
-    justify-content: center;
+    align-items: center;
   }
   .Contact form {
-    
     justify-content: space-around;
     margin: 0 auto;
     width: 95vw;
-    height: 460px;
+    height: 60vh;
   }
-  .contactform button{
+  .contactform button {
     margin: 0 auto;
   }
-  .Contact input{
-margin: 0 0 0 20px;
-width: 40vw;
+  .Contact input {
+    margin: 0 0 0 20px;
+    width: 40vw;
   }
-  .contactform{
+  .contactform {
     height: 400px;
     width: 95vw;
   }
   .mail {
     margin: 0 10px 0 0px;
   }
- .message textarea{
+  .message textarea {
     margin: 0 0 0 10px;
     width: 90vw;
   }
@@ -859,7 +861,7 @@ width: 40vw;
     display: flex;
     align-items: center;
   }
-  .address{
+  .address {
     margin: 0 auto;
     width: 100vw;
     justify-content: center;
