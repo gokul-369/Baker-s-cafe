@@ -50,7 +50,7 @@ button {
 }
 .navshadow {
   transition: all 0.6s ease;
-  background-color: #ffffff;
+  background-color:aquamarine;
 }
 .burger {
   z-index: 2;
@@ -88,7 +88,7 @@ button {
   display: block;
   width: 0;
   height: 2px;
-  background: #e8b75b;
+  background:#399953 ;
   transition: width 0.4s;
 }
 .coollink:hover::after {
