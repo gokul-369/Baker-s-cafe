@@ -50,7 +50,7 @@ button {
 }
 .navshadow {
   transition: all 0.6s ease;
-  background-color:aquamarine;
+  background-color:white;
 }
 .burger {
   z-index: 2;
